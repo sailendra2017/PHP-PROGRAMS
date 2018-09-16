@@ -1,0 +1,8 @@
+<?php
+include'config.php';
+//Get thread id
+$t_id = mysqli_thread_id($con);
+//Kill connection
+mysqli_kill($con,$t_id);
+echo "$t_id";
+?>																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																													

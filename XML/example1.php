@@ -1,0 +1,21 @@
+<?php
+$note=<<<XML 
+<student>
+	<name>sanket</name>
+	<roll>122</roll>
+	<math>22</math>
+</student>
+XML;
+$xml=simplexml_load_string($note);
+print_r($xml);
+	
+$note=<<<XML
+<student>
+	<name>sanket</name>
+	<roll>122</roll>
+	<math>22</math>
+</student>
+XML;
+$xml=simplexml_load_string($note);
+print_r($xml);		
+?>

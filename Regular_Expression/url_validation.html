@@ -1,0 +1,15 @@
+<script type="text/javascript">
+	
+
+	var url = 'https://www.example.com';
+	var patt = /^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$/;
+	
+	if(url.match(patt))
+	{
+		document.write("valid");
+	}
+	else
+	{
+		document.write("Invalid");
+	}
+</script>

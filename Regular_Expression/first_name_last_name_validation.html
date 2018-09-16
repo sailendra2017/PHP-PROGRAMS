@@ -1,0 +1,16 @@
+<script type="text/javascript">
+	var full_name = 'Sailendranath';
+	//For One Space in First Name/Last Name
+	//var patt = /^[a-zA-Z]+[\-'\s]{1}[a-zA-Z]+$/;
+	//For no Space in First Name/Last Name
+	var patt = /^[a-zA-Z]*$/;
+	
+	if(full_name.match(patt))
+	{
+		document.write("valid");
+	}
+	else
+	{
+		document.write("Invalid");
+	}
+</script>

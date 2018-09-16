@@ -1,0 +1,47 @@
+<script type="text/javascript">
+	
+	/*
+	Postal Circle	Corresponding First Two Digits
+	Delhi	11
+	Haryana	12 13
+	Punjab	14-16
+	Himachal Pradesh	17
+	Jammu & Kashmir	18-19
+	Uttar Pradesh	20-28
+	Rajasthan	30-34
+	Gujarat	36-39
+	Maharastra	40-44
+	Madhya Pradesh	45-49
+	Andhra Pradesh	50-53
+	Karnataka	56-59
+	Tamil Nadu	60-64
+	Kerala	67-69
+	West Bengal	70-74
+	Orissa	75-77
+	Assam	78
+	North Eastern India	79
+	Bihar and Jharkhand	80-85
+
+
+	^[1-9][0-9]{5}$
+
+	Explanation:
+
+	    ^: Starts with anchor
+	    [1-9]: Matches exactly one digit from 1 to 9
+	    [0-9]{5}: Matches exactly five digits in the inclusive range 0-9
+	    $: Ends with anchor
+
+	*/
+	var phone_no = '752054';
+	var patt = /^[1-9][0-9]{5}$/;
+	
+	if(phone_no.match(patt))
+	{
+		document.write("valid");
+	}
+	else
+	{
+		document.write("Invalid");
+	}
+</script>

@@ -1,0 +1,17 @@
+<script type="text/javascript">
+	
+
+	var number = '7735627332';
+	var patt = /^[\-\+]?\d+$/;
+	// Number, including positive, negative, and floating decimal. credit: orefalo
+    // var patt = /^[\-\+]?((([0-9]{1,3})([,][0-9]{3})*)|([0-9]+))?([\.]([0-9]+))?$/;
+	
+	if(number.match(patt))
+	{
+		document.write("valid");
+	}
+	else
+	{
+		document.write("Invalid");
+	}
+</script>
