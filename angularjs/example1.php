@@ -7,8 +7,5 @@
 	<p><h1>Hello <span>Raju</span></h1></p>
 	<p><h1>Hello <span>Chintu</span></h1></p>
 	<p><h1>Hello <span>My Friend</span></h1></p>
-<<<<<<< HEAD
-=======
 	<p><h1>Hello <span>My Friend is my hero</span></h1></p>
->>>>>>> Sailendra
 </div>
